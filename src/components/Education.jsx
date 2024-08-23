@@ -8,7 +8,7 @@ const Education = () => {
         </h1>
         <div className=" flex flex-col md:flex-row  justify-between gap-20">
           <div className="">
-            <h1 className="text-lg underline  decoration-[#6e40f9bf] underline-offset-8 decoration-1 font-extralight">
+            <h1 className="text-lg underline  decoration-sky-600 underline-offset-8 decoration-1 font-extralight">
               Bsc.CSIT
             </h1>
             <h1 className="text-blue-400"> Academia International College</h1>
@@ -17,7 +17,7 @@ const Education = () => {
             </h3>
           </div>
           <div className="">
-            <h1 className="text-lg underline  decoration-[#6e40f9bf] underline-offset-8 decoration-1 font-extralight">
+            <h1 className="text-lg underline  decoration-sky-600 underline-offset-8 decoration-1 font-extralight">
               +2 In Science
             </h1>
             <h1 className="text-blue-400">
@@ -29,7 +29,7 @@ const Education = () => {
             </h3>
           </div>
           <div className="">
-            <h1 className="text-lg underline  decoration-[#6e40f9bf] underline-offset-8 decoration-1 font-extralight">
+            <h1 className="text-lg underline  decoration-sky-600 underline-offset-8 decoration-1 font-extralight">
               SEE
             </h1>
 
