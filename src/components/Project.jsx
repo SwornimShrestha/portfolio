@@ -23,7 +23,7 @@ const Project = () => {
         <div className="flex flex-col md:flex-row    relative md:ml-[-10px]   md:p-2 ">
           {/* image */}
           <div className=" w-full md:w-[40rem]  h-72 md:h-[23rem] bg-slate-100  overflow-hidden ">
-            <img src={project01} className="" alt="" />
+            <img src={project01} className="w-full h-full" alt="" />
           </div>
           {/* Description */}
           <div className="w-full md:w-[35rem] h-56 md:h-[23rem]  md:relative ">
@@ -86,14 +86,14 @@ const Project = () => {
           </div>
           {/* image */}
           <div className="w-full md:w-[40rem]  h-72 md:h-[23rem] bg-slate-100  overflow-hidden">
-            <img src={project02} className="" alt="" />
+            <img src={project02} className="w-full h-full" alt="" />
           </div>
         </div>
         {/* right */}
         <div className="flex flex-col md:flex-row    relative md:ml-[-10px]   md:p-2 ">
           {/* image */}
           <div className=" w-full md:w-[40rem]  h-72 md:h-[23rem] bg-slate-100  overflow-hidden ">
-            <img src={project03} className="" alt="" />
+            <img src={project03} className="w-full h-full" alt="" />
           </div>
           {/* Description */}
           <div className="w-full md:w-[35rem] h-56 md:h-[23rem]  md:relative ">
