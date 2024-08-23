@@ -77,7 +77,7 @@ const Navbar = () => {
                 <a
                   href={item.href}
                   className="block w-full text-lg"
-                  onClick={(e) => handleLinkClick(item.href)}
+                  onClick={(e) => handleLinkClick(e, item.href)}
                 >
                   {item.label}
                 </a>

@@ -26,11 +26,11 @@ const Hero = () => {
         transition={{ duration: 1 }}
         className="w-full md:w-1/2 "
       >
-        <p className="px-2 text-xl  italic -tracking-tighter">{HERO.greet}</p>
         <h2 className="text-4xl md:text-6xl font-bold p-2 my-3 lg:text-[4rem]">
           {HERO.name}
         </h2>
 
+        <p className="px-2 text-xl  italic -tracking-tighter">{HERO.greet}</p>
         <p className="mb-8 p-2">{HERO.description}</p>
         <div className="flex gap-10">
           <ul className="flex gap-3 px-2 ">

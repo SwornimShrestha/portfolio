@@ -27,7 +27,7 @@ const Experiences = () => {
           <TimelineContent>
             {" "}
             <div className="">
-              <h1 className="text-lg underline  decoration-sky-600 underline-offset-8 decoration-1 font-extralight">
+              <h1 className="text-lg md:underline  decoration-sky-600 underline-offset-8 decoration-1 font-extralight">
                 ReactJs Developer Intern{" "}
                 <span className="text-blue-400">
                   {" "}
@@ -59,7 +59,7 @@ const Experiences = () => {
           <TimelineContent>
             {" "}
             <div className="">
-              <h1 className="text-lg underline decoration-sky-600 underline-offset-8 decoration-1 font-extralight">
+              <h1 className="text-lg md:underline decoration-sky-600 underline-offset-8 decoration-1 font-extralight">
                 Technical Support Assistant{" "}
                 <span className="text-blue-400 font-extralight">
                   {" "}
