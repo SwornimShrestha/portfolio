@@ -3,6 +3,7 @@ import project01 from "../assets/projects/image1.png";
 
 import project02 from "../assets/projects/image2.png";
 import project03 from "../assets/projects/image3.png";
+import project04 from "../assets/projects/image4.png";
 
 import GitHubIcon from "@mui/icons-material/GitHub";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
@@ -148,6 +149,52 @@ const Project = () => {
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+        {/* left */}
+        <div className="flex flex-col-reverse md:flex-row relative md:ml-[-10px]  md:p-2">
+          {/* description */}
+          <div className="w-full md:w-[35rem] h-56 md:h-[23rem]  md:relative ">
+            <div className=" flex flex-col  justify-end md:justify-start  items-end md:items-start gap-2 pt-8 md:pt-24 ">
+              <h3 className="text-m text-sky-400 text-xs ">Featured Project</h3>
+              <h1 className="text-2xl font-extrabold  text-gray-300">
+                Currency Convertor
+              </h1>
+            </div>
+            <div className=" w-full md:w-[38rem]  h-56 md:h-[6rem] shadow-lg md:bg-[#0a030f]/90 absolute  md:top-40 md:left-0  p-2 md:p-6 ">
+              <p className="text-sm text-gray-500">
+                {" "}
+                The Currency Converter application is developed using React and
+                Tailwind CSS. It fetches live exchange rates from an API to help
+                users convert currencies in real-time.
+              </p>
+            </div>
+            <div className=" top-28 relative">
+              <ul className="flex gap-4 justify-end md:justify-start text-sm text-sky-500">
+                <li>html</li>
+                <li>Tailwind CSS</li>
+                <li>React</li>
+                <li>JS</li>
+              </ul>
+              <div className="flex gap-4 justify-end md:justify-start mt-4">
+                <a
+                  href="https://github.com/SwornimShrestha/CurrencyConvertor"
+                  target="_blank"
+                >
+                  <GitHubIcon sx={{ fontSize: 20, color: "skyblue" }} />
+                </a>
+                <a
+                  href="https://currency-convertor-sand.vercel.app/"
+                  target="_blank"
+                >
+                  <OpenInNewIcon sx={{ fontSize: 20, color: "skyblue" }} />
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* image */}
+          <div className="w-full md:w-[40rem]  h-64 md:h-[23rem] bg-slate-100  overflow-hidden">
+            <img src={project04} className="w-full h-full" alt="" />
           </div>
         </div>
       </div>
