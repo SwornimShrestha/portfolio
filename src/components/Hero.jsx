@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 import { Button } from "@mui/material";
 const Hero = () => {
   const openResume = () => {
-    window.open("/public/SwornimCV (1).pdf", "_blank");
+    window.open("/SwornimCV (1).pdf", "_blank");
   };
   return (
     <section className="flex min-h-screen flex-wrap items-center justify-evenly  mb-40 md:mb-14">

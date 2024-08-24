@@ -1,7 +1,8 @@
 import React from "react";
-
-import contact from "../assets/contact.png";
-import { Button, TextField } from "@mui/material";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import PhoneIcon from "@mui/icons-material/Phone";
+import contact from "../assets/contact2.png";
+// import { Button, TextField } from "@mui/material";
 const Contact = () => {
   return (
     <section className="pt-20 " id="contact">
@@ -12,33 +13,36 @@ const Contact = () => {
       <p className="mb-9 text-center ">
         Leave your details and a short message below.
       </p>
-      <div className="flex flex-col md:flex-row gap-20">
+      <div className="flex flex-col md:flex-row ">
         {/* Image */}
-        <div className=" w-96 h-96 mx-auto md:w-[30rem] md:h-[30rem] bg-white-300">
+        <div className=" w-full h-full mx-auto  bg-white-300">
           <img src={contact} className="p-6" />
         </div>
-        {/* form */}
         <div>
-          <form className="w-96 h-96 mx-auto md:w-[30rem] md:h-[30rem] px-4 md:px-10  flex flex-col gap-10 rounded-lg border border-stone-50/30 bg-white/5  md:py-3 py-2 backdrop-blur-lg">
-            <TextField
-              label="Full name"
-              variant="standard"
-              sx={{ input: { color: "white" }, label: { color: "white" } }}
-            />
-            <TextField
-              label="Email"
-              variant="standard"
-              sx={{ input: { color: "white" }, label: { color: "white" } }}
-            />
-            <TextField
-              label="Message"
-              multiline
-              rows={6}
-              variant="standard"
-              sx={{ input: { color: "white" }, label: { color: "white" } }}
-            />
-            <Button variant="contained">Submit</Button>
-          </form>
+          <h1 className=" text-2xl font-extrabold md:mb-10 mb-20">
+            Have You Any Projects? Please Drop a Message
+          </h1>
+          <div className="flex flex-col gap-10">
+            <h3 className="text-sm font-extrabold">
+              Address:<br></br>
+              <span className="text-sm  font-medium text-gray-400">
+                Tikathali,Lalitpur
+              </span>
+            </h3>
+            <h3 className="text-sm font-extrabold">
+              <PhoneIcon sx={{ fontSize: 20 }} />
+              Phone: <br></br>
+              <span className="text-sm  font-medium text-gray-400">
+                (+977) 9869348462
+              </span>
+            </h3>
+            <h3 className="text-sm font-extrabold">
+              Email:<br></br>
+              <span className="text-sm  font-medium text-gray-400">
+                swornim@academiacollege.edu.np swornimshrestha639@gmail.com
+              </span>
+            </h3>
+          </div>
         </div>
       </div>
     </section>
