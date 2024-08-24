@@ -3,6 +3,7 @@ import HomeIcon from "@mui/icons-material/Home";
 import PhoneIcon from "@mui/icons-material/Phone";
 import SendIcon from "@mui/icons-material/Send";
 import contact from "../assets/contact2.png";
+import point from "../assets/point3.png";
 // import { Button, TextField } from "@mui/material";
 const Contact = () => {
   return (
@@ -19,6 +20,7 @@ const Contact = () => {
         <div className=" w-full h-full mx-auto   pl-50 flex justify-center  ">
           <img src={contact} className="" />
         </div>
+        {/* description */}
         <div>
           <h1 className=" text-2xl font-extrabold md:mb-10 mb-20">
             Have You Any Projects? Please Drop a Message
@@ -45,6 +47,15 @@ const Contact = () => {
                 swornim@academiacollege.edu.np swornimshrestha639@gmail.com
               </span>
             </h3>
+            <div className="flex flex-row gap-4">
+              <img className="w-14" src={point} alt="" />
+
+              <img
+                className="w-10"
+                src="https://img.icons8.com/?size=100&id=37246&format=png&color=000000"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
