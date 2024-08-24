@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <section className="w-full h-24 text-center py-7 ">
+    <section className="w-full h-10 text-center  ">
       <div className="flex flex-row gap-4 justify-center items-center">
         Created with{" "}
         <img

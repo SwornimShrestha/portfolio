@@ -1,6 +1,7 @@
 import React from "react";
-import GitHubIcon from "@mui/icons-material/GitHub";
+import HomeIcon from "@mui/icons-material/Home";
 import PhoneIcon from "@mui/icons-material/Phone";
+import SendIcon from "@mui/icons-material/Send";
 import contact from "../assets/contact2.png";
 // import { Button, TextField } from "@mui/material";
 const Contact = () => {
@@ -10,13 +11,13 @@ const Contact = () => {
       <h3 className="mb-4 text-center text-3xl lg:text-4xl font-extrabold">
         Let's get in touch
       </h3>
-      <p className="mb-9 text-center ">
+      <p className="mb-9 text-center">
         Leave your details and a short message below.
       </p>
-      <div className="flex flex-col md:flex-row ">
+      <div className="flex flex-col md:flex-row  mt-20 gap-20 md:gap-0 md:mt-28 ">
         {/* Image */}
-        <div className=" w-full h-full mx-auto  bg-white-300">
-          <img src={contact} className="p-6" />
+        <div className=" w-full h-full mx-auto   pl-50 flex justify-center  ">
+          <img src={contact} className="" />
         </div>
         <div>
           <h1 className=" text-2xl font-extrabold md:mb-10 mb-20">
@@ -24,19 +25,21 @@ const Contact = () => {
           </h1>
           <div className="flex flex-col gap-10">
             <h3 className="text-sm font-extrabold">
+              <HomeIcon sx={{ fontSize: 15, marginRight: 1 }} />
               Address:<br></br>
               <span className="text-sm  font-medium text-gray-400">
                 Tikathali,Lalitpur
               </span>
             </h3>
             <h3 className="text-sm font-extrabold">
-              <PhoneIcon sx={{ fontSize: 20 }} />
+              <PhoneIcon sx={{ fontSize: 15, marginRight: 1 }} />
               Phone: <br></br>
               <span className="text-sm  font-medium text-gray-400">
                 (+977) 9869348462
               </span>
             </h3>
             <h3 className="text-sm font-extrabold">
+              <SendIcon sx={{ fontSize: 15, marginRight: 1 }} />
               Email:<br></br>
               <span className="text-sm  font-medium text-gray-400">
                 swornim@academiacollege.edu.np swornimshrestha639@gmail.com
