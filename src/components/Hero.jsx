@@ -8,6 +8,9 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import { motion } from "framer-motion";
 import { Button } from "@mui/material";
 const Hero = () => {
+  const openResume = () => {
+    window.open("/public/SwornimCV (1).pdf", "_blank");
+  };
   return (
     <section className="flex min-h-screen flex-wrap items-center justify-evenly  mb-40 md:mb-14">
       <div className="flex justify-center">
@@ -35,19 +38,27 @@ const Hero = () => {
         <div className="flex gap-10">
           <ul className="flex gap-3 px-2 ">
             <li>
-              <GitHubIcon sx={{ fontSize: 30 }} />
+              <a href="https://github.com/SwornimShrestha" target="_blank">
+                <GitHubIcon sx={{ fontSize: 30 }} />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/swornim-shrestha-04a8a0238"
+                target="_blank"
+              >
+                <LinkedInIcon sx={{ fontSize: 30 }} />
+              </a>
             </li>
             <li>
               <InstagramIcon sx={{ fontSize: 30 }} />
             </li>
-            <li>
-              <LinkedInIcon sx={{ fontSize: 30 }} />
-            </li>
+
             <li>
               <FacebookIcon sx={{ fontSize: 30 }} />
             </li>
           </ul>
-          <Button color="secondary" variant="outlined">
+          <Button color="secondary" variant="outlined" onClick={openResume}>
             Resume
           </Button>
         </div>

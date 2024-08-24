@@ -71,12 +71,12 @@ const Navbar = () => {
           </div>
         </div>
         {isMobileMenuOpen && (
-          <ul className="ml-4 m-4 flex flex-col backdrop-blur-md">
+          <ul className="ml-4  flex flex-col backdrop-blur-md">
             {NAVIGATION_LINKS.map((item, index) => (
               <li key={index}>
                 <a
                   href={item.href}
-                  className="block w-full text-lg"
+                  className="block w-full text-xl mb-5 hover:text-yellow-400 "
                   onClick={(e) => handleLinkClick(e, item.href)}
                 >
                   {item.label}

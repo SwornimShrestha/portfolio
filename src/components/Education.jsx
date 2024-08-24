@@ -1,4 +1,6 @@
 import * as React from "react";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+
 const Education = () => {
   return (
     <section id="education">
@@ -13,7 +15,11 @@ const Education = () => {
             </h1>
             <h1 className="text-blue-400"> Academia International College</h1>
             <h3 className="text-xs text-[#f5f4f4af] my-3 font-semibold">
-              2019 - 2024 <span>Gwarko</span>
+              2019 - 2024{" "}
+              <span>
+                <LocationOnIcon sx={{ fontSize: 20 }} />
+                Gwarko
+              </span>
             </h3>
           </div>
           <div className="">
@@ -25,7 +31,11 @@ const Education = () => {
               Golden Gate International College
             </h1>
             <h3 className="text-xs text-[#f5f4f4af] my-3 font-semibold">
-              2017 - 2019 <span>Batisputali</span>
+              2017 - 2019{" "}
+              <span>
+                <LocationOnIcon sx={{ fontSize: 20 }} />
+                Batisputali
+              </span>
             </h3>
           </div>
           <div className="">
@@ -38,7 +48,11 @@ const Education = () => {
               Enshrine National English Sec School
             </h1>
             <h3 className="text-xs text-[#f5f4f4af] my-3 font-semibold">
-              2017 <span>Lalitpur</span>
+              2017{" "}
+              <span>
+                <LocationOnIcon sx={{ fontSize: 20 }} />
+                Lalitpur
+              </span>
             </h3>
           </div>
         </div>

@@ -47,8 +47,15 @@ const Project = () => {
                 <li>JS</li>
               </ul>
               <div className="flex gap-4 justify-end mt-4">
-                <GitHubIcon sx={{ fontSize: 20, color: "skyblue" }} />
-                <OpenInNewIcon sx={{ fontSize: 20, color: "skyblue" }} />
+                <a
+                  href="https://github.com/SwornimShrestha/TravelWIthMe"
+                  target="_blank"
+                >
+                  <GitHubIcon sx={{ fontSize: 20, color: "skyblue" }} />
+                </a>
+                <a href="https://travel-w-ith-me.vercel.app/" target="_blank">
+                  <OpenInNewIcon sx={{ fontSize: 20, color: "skyblue" }} />
+                </a>
               </div>
             </div>
           </div>
@@ -79,8 +86,18 @@ const Project = () => {
                 <li>FlowBite</li>
               </ul>
               <div className="flex gap-4 justify-end md:justify-start mt-4">
-                <GitHubIcon sx={{ fontSize: 20, color: "skyblue" }} />
-                <OpenInNewIcon sx={{ fontSize: 20, color: "skyblue" }} />
+                <a
+                  href="https://github.com/SwornimShrestha/EcommerceProject"
+                  target="_blank"
+                >
+                  <GitHubIcon sx={{ fontSize: 20, color: "skyblue" }} />
+                </a>
+                <a
+                  href="https://ecommerce-project-teal-iota.vercel.app/"
+                  target="_blank"
+                >
+                  <OpenInNewIcon sx={{ fontSize: 20, color: "skyblue" }} />
+                </a>
               </div>
             </div>
           </div>
@@ -117,8 +134,18 @@ const Project = () => {
                 <li>Context API</li>
               </ul>
               <div className="flex gap-4 justify-end mt-4">
-                <GitHubIcon sx={{ fontSize: 20, color: "skyblue" }} />
-                <OpenInNewIcon sx={{ fontSize: 20, color: "skyblue" }} />
+                <a
+                  href="https://github.com/SwornimShrestha/TodoApp"
+                  target="_blank"
+                >
+                  <GitHubIcon sx={{ fontSize: 20, color: "skyblue" }} />
+                </a>
+                <a
+                  href="https://todo-app-hazel-sigma-58.vercel.app/"
+                  target="_blank"
+                >
+                  <OpenInNewIcon sx={{ fontSize: 20, color: "skyblue" }} />
+                </a>
               </div>
             </div>
           </div>
