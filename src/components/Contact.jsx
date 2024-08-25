@@ -49,12 +49,17 @@ const Contact = () => {
             </h3>
             <div className="flex flex-row gap-4">
               <img className="w-14" src={point} alt="" />
-
-              <img
-                className="w-10"
-                src="https://img.icons8.com/?size=100&id=37246&format=png&color=000000"
-                alt=""
-              />
+              <a
+                href="https://mail.google.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="w-10"
+                  src="https://img.icons8.com/?size=100&id=37246&format=png&color=000000"
+                  alt=""
+                />
+              </a>
             </div>
           </div>
         </div>
