@@ -23,7 +23,7 @@ const Contact = () => {
         {/* description */}
         <div>
           <h1 className=" text-2xl font-extrabold md:mb-10 mb-20">
-            Have You Any Projects? Please Drop a Message
+            Have Any Projects? Please Drop a Message
           </h1>
           <div className="flex flex-col gap-10">
             <h3 className="text-sm font-extrabold">
