@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Project from "./components/Project";
 import Skills from "./components/Skills";
+import AOS from "aos";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -15,6 +16,7 @@ function App() {
     setTimeout(() => {
       setIsLoading(false);
     }, 2000);
+    AOS.init({ duration: 1000 });
   }, []);
 
   if (isLoading) {
@@ -32,7 +34,9 @@ function App() {
         <div>
           <Navbar />
           <Hero />
-          <Skills />
+          <div data-aos="fade-up">
+            <Skills />
+          </div>
         </div>
         <Project />
         <Experiences />

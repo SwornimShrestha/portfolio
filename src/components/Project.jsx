@@ -1,13 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import project01 from "../assets/projects/image1.png";
 
 import project02 from "../assets/projects/image2.png";
 import project03 from "../assets/projects/image3.png";
 import project04 from "../assets/projects/image4.png";
+import AOS from "aos";
 
 import GitHubIcon from "@mui/icons-material/GitHub";
 import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 const Project = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <section className="flex flex-col gap-9 " id="projects">
       <div className="relative">
@@ -23,11 +28,17 @@ const Project = () => {
         {/* right */}
         <div className="flex flex-col md:flex-row    relative md:ml-[-10px]   md:p-2 ">
           {/* image */}
-          <div className=" w-full md:w-[40rem]  h-64 md:h-[23rem] bg-slate-100  overflow-hidden ">
+          <div
+            data-aos="fade-right"
+            className=" w-full md:w-[40rem]  h-64 md:h-[23rem] bg-slate-100  overflow-hidden "
+          >
             <img src={project01} className="w-full h-full" alt="" />
           </div>
           {/* Description */}
-          <div className="w-full md:w-[35rem] h-56 md:h-[23rem]  md:relative ">
+          <div
+            data-aos="fade-left"
+            className="w-full md:w-[35rem] h-56 md:h-[23rem]  md:relative "
+          >
             <div className=" flex flex-col justify-end items-end gap-2 pt-8 md:pt-24  ">
               <h3 className="text-m text-sky-400 text-xs ">Featured Project</h3>
               <h1 className="text-2xl font-extrabold text-gray-300">
